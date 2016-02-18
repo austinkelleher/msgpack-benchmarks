@@ -1,0 +1,24 @@
+{
+  "name": "msgpack-benchmark",
+  "version": "1.0.0",
+  "description": "Benchmark different msgpack JavaScript modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "msgpack",
+    "pack",
+    "unpack",
+    "benchmark"
+  ],
+  "author": "Austin Kelleher, a@alk.im",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.0",
+    "msgpack": "^1.0.2",
+    "msgpack-js": "^0.3.0",
+    "msgpack5": "^3.3.0",
+    "node-uuid": "^1.4.7"
+  }
+}
