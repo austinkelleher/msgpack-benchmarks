@@ -2,6 +2,7 @@ var Benchmark = require('benchmark');
 var msgpackjs = require('msgpack-js');
 var nodemsgpack = require('msgpack');
 var msgpack5 = require('msgpack5')();
+var msgpacklite = require('msgpack-lite');
 var SampleUtil = require('./util/sample');
 
 var msgpackTypes = {
@@ -16,6 +17,10 @@ var msgpackTypes = {
     msgpack5: {
         encode: msgpack5.encode,
         decode: msgpack5.decode
+    },
+    msgpacklite: {
+        encode: msgpacklite.encode,
+        decode: msgpacklite.decode
     }
 };
 
@@ -75,8 +80,6 @@ var suite;
 
 for (var type in msgpackTypes) {
     var msgpackType = msgpackTypes[type];
-    console.log(type);
-
     suite = suiteGenerator({
         suite: suite,
         type: type,
