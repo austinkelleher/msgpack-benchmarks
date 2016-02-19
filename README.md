@@ -4,7 +4,7 @@ Compared:
 - msgpack-js
 - msgpack
 - msgpack5
-
+- msgpack-lite
 
 Results:
 

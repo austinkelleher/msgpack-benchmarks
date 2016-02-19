@@ -18,7 +18,7 @@ var msgpackTypes = {
         encode: msgpack5.encode,
         decode: msgpack5.decode
     },
-    msgpacklite: {
+    'msgpack-lite': {
         encode: msgpacklite.encode,
         decode: msgpacklite.decode
     }
