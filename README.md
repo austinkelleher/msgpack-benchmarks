@@ -6,6 +6,15 @@ Compared:
 - msgpack5
 - msgpack-lite
 
+The following results were collected on the following setup:
+
+- Node.js v4.4.4
+- MacBook Pro (Retina, 15-inch, Mid 2015)
+- OS: OS X El Capitan v 10.11.5
+- Processor: 2.5 GHz Intel Core i7
+- Memory: 16 GB 1600 MHz DDR3
+- Graphics: AMD Radeon R9 M370X 2048 MB
+
 Results:
 
 ```bash
